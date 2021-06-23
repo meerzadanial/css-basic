@@ -6,7 +6,7 @@
 body{
     background-color: aliceblue;
     color: #555555;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: normal;
     line-height: 1.9em;
@@ -27,12 +27,26 @@ a:active{
 }
 
 a:visited{
-    color: lavender;
+    color: blueviolet;
+  
 }
 
 .container{
     width: 80%;
     margin:auto;
+}
+
+.button[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+   background: red;
+   color: #fff;
+
 }
 
 .box-1{
@@ -55,7 +69,7 @@ a:visited{
     text-decoration:underline;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    word: spacing 0.3em; 
+    word-spacing: 0.3em; 
 }
 
 .box-2{
@@ -80,3 +94,35 @@ border-radius: 15px;
     list-style:square;
     list-style:none;
 }
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
